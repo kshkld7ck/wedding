@@ -1,7 +1,59 @@
+@font-face {
+    font-family: 'AvenirNextCyr';
+    src: url('../fonts/avenirnextcyr-bold.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('../fonts/avenirnextcyr-bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('../fonts/avenirnextcyr-bold.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/avenirnextcyr-bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('../fonts/avenirnextcyr-bold.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/avenirnextcyr-bold.svg#avenirnextcyr-bold') format('svg');
+    /* Chrome < 4, Legacy iOS */
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'AvenirNextCyr';
+    src: url('../fonts/avenirnextcyr-light.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('../fonts/avenirnextcyr-light.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('../fonts/avenirnextcyr-light.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/avenirnextcyr-light.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('../fonts/avenirnextcyr-light.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/avenirnextcyr-light.svg#avenirnextcyr-light') format('svg');
+    /* Chrome < 4, Legacy iOS */
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'AvenirNextCyr';
+    src: url('../fonts/avenirnextcyr-medium.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('../fonts/avenirnextcyr-medium.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('../fonts/avenirnextcyr-medium.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/avenirnextcyr-medium.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('../fonts/avenirnextcyr-medium.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/avenirnextcyr-medium.svg#avenirnextcyr-medium') format('svg');
+    /* Chrome < 4, Legacy iOS */
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'AvenirNextCyr';
+    src: url('../fonts/avenirnextcyr-regular.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('../fonts/avenirnextcyr-regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('../fonts/avenirnextcyr-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/avenirnextcyr-regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('../fonts/avenirnextcyr-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/avenirnextcyr-regular.svg#avenirnextcyr-regular') format('svg');
+    /* Chrome < 4, Legacy iOS */
+    font-weight: 400;
+}
+
 * {
-    font-family: 'Red Hat Display', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    font-family: "AvenirNextCyr";
 }
 
 .container {
@@ -286,7 +338,7 @@ hr {
     letter-spacing: 0.05em;
     margin-top: 0;
     margin-bottom: 93px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .overview__block {

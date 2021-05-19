@@ -17,8 +17,6 @@ if (now < wedding) {
                     minutes: ts.minutes.toString().length > 1 ? ts.minutes.toString() : "0" + ts.minutes.toString(),
                     seconds: ts.seconds.toString().length > 1 ? ts.seconds.toString() : "0" + ts.seconds.toString(),
                 }
-
-
                 Object.keys(weddingDate).forEach((el) => {
                     if (weddingDate[el].toString()[1] == "0" && el == 'seconds') {
                         document.getElementById(`${el}_first`).classList.add('with_counter_end')
